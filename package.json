@@ -1,0 +1,22 @@
+{
+  "name": "DevSoftwareTesting",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "wdio --coloredLogs",
+    "start": "selenium-standalone start"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "wdio-mocha-framework": "^0.5.4"
+  },
+  "dependencies": {
+    "chai": "^3.5.0",
+    "spec": "^1.0.1",
+    "wdio-spec-reporter": "0.0.3",
+    "webdriverio": "^4.4.0"
+  }
+}
